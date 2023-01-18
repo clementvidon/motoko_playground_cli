@@ -2,7 +2,7 @@
 
 ##  Why
 
-juickly test simple Motoko programs, useful for CLI/Vim users.
+Quickly test your functions/programs. Useful for CLI/Vim users.
 
 ##  How
 
@@ -16,12 +16,11 @@ Example:
     make run-ciao
 ```
 
-> The workflow is to create foo.mo in the src directory, open it and write a
-> canister with some functions and a main function in which we can call, test and print out the output of the other functions.
+> The workflow is to create foo.mo in the src directory, open it and write a canister with some functions and a main function in which we can call, test and print out the output of the other functions.
 
 ***A MAIN FUNCTION IS REQUIRED FOR MAKE RUN TO WORK***
 
 ##  Troubleshooting
 
-1. Terminal 2 output: "Canister...is out of cycles", Ctrl-C in Terminal 2 and
-run `dfx start --clean`
+- If Terminal 2 says that "Canister...is out of cycles". Press Ctrl-C in
+  Terminal 2 and run `dfx start --clean` in Terminal 2.
