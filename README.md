@@ -19,7 +19,7 @@ Example:
 > The workflow is to create foo.mo in the src directory, open it and write a
 > canister with some functions and a main function in which we can call, test and print out the output of the other functions.
 
-***A MAIN FUNCTION IS REQUIRED BY MAKE RUN***
+***A MAIN FUNCTION IS REQUIRED FOR MAKE RUN TO WORK***
 
 ##  Troubleshooting
 
