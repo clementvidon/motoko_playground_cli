@@ -2,12 +2,12 @@
 
 ##  Why
 
-Quickly test simple Motoko programs, useful for CLI/Vim users.
+juickly test simple Motoko programs, useful for CLI/Vim users.
 
 ##  How
 
-Terminal 1 `dfx start`
-Terminal 2 `make install`
+Terminal 1 `dfx start`<br>
+Terminal 2 `make install`<br>
 Terminal 2 `make run-<motoko_src_file>`
 
 Example:
@@ -16,9 +16,12 @@ Example:
     make run-ciao
 ```
 
-> The workflow is to create foo.mo in the src directory, open it and write a canister with some functions and a main function **A MAIN FUNCTION IS MANDATORY FOR 'MAKE RUN-' TO WORK** in which we can call, test and print out the output of the other functions.
+> The workflow is to create foo.mo in the src directory, open it and write a
+> canister with some functions and a main function in which we can call, test and print out the output of the other functions.
+
+***A MAIN FUNCTION IS REQUIRED BY MAKE RUN***
 
 ##  Troubleshooting
 
-1. Terminal 2 output: "Canister...is out of cycles", Ctrl_c in Terminal 2 and
+1. Terminal 2 output: "Canister...is out of cycles", Ctrl-C in Terminal 2 and
 run `dfx start --clean`
