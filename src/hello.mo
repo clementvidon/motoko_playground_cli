@@ -1,7 +1,7 @@
 import Debug "mo:base/Debug";
 
 actor Hello {
-  public query func hello() : async Text {
+  public query func main() : async Text {
     Debug.print("Hello");
     return ":)";
   };

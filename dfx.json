@@ -1,7 +1,7 @@
 {
   "canisters": {
     "playground": {
-      "main": "src/ciao.mo"
+      "main": "tmp/main.mo"
     }
   }
 }
