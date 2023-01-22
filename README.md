@@ -16,7 +16,7 @@ Example:
 ```
 
 > The workflow is create a directory with a copy of the Makefile and your .mo
-> files, write code and say make to compile it and run.
+> files, write code and say `make` to compile it and run.
 
 *As it is not a canister do not use actor, public, query, async...*
 
@@ -37,8 +37,8 @@ Example:
 
 > The workflow is to create <canister_name>/main.mo in the src/ directory, write
 > the canister make of functions and a function called main() in which we will
-> call the other functions with various test input.  Run make-<canister_name> to
-> execute it and print those tests outputs in the terminal.
+> call the other functions with various test input.  Run `make-<canister_name>`
+> to execute it and print those tests outputs in the terminal.
 
 ***A MAIN FUNCTION IS REQUIRED FOR MAKE RUN TO WORK***
 
@@ -46,10 +46,17 @@ Example:
 
 - First of all make sure that in src/ there is a directory with the name of your
   canister which contains at least one file named main.mo which contains at
+- If Terminal says "...cannot create regular file '.tmp/'..." run `mkdir .tmp`
+
   least one function named main() which does not take any arguments.
+
+- If Terminal 2 says "...the canister is not empty..." run `make run`
 
 - If Terminal 2 says that "Canister...is out of cycles". Press Ctrl-C in
   Terminal 1 and run `dfx start --clean` in Terminal 1.
+
+- If Terminal 2 says "...cannot create regular file '.tmp/'..." run `mkdir .tmp`
+
 
 # Contact
 
