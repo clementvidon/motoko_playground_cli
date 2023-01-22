@@ -1,7 +1,7 @@
 {
   "canisters": {
     "playground": {
-      "main": "tmp/main.mo"
+      "main": ".tmp/main.mo"
     }
   }
 }

@@ -18,8 +18,9 @@ upgrade: build
 	dfx canister install $(CANISTER) --mode=upgrade --yes
 
 run-%:
-	cp src/$*.mo tmp/main.mo
+	cp src/$*/*.mo .tmp/
 	$(MAKE) upgrade
+	@echo "---------------------------------";
 	dfx canister call $(CANISTER) main
 
 clean:
