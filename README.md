@@ -3,6 +3,8 @@
 Minimalistic and lightweight playground to quickly test Motoko programs and
 canisters without the need for a [mouse](https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/).
 
+***Requires [dfx](https://github.com/dfinity/sdk)***
+
 ##  Programs
 
 ###  How
