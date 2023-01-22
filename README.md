@@ -47,10 +47,10 @@ Example:
 ###  Troubleshooting
 
 - First of all make sure that in src/ there is a directory with the name of your
-  canister which contains at least one file named main.mo which contains at
+  canister which contains at least one file named main.mo which contains at least 
+  one function named main() which does not take any arguments.
+  
 - If Terminal says "...cannot create regular file '.tmp/'..." run `mkdir .tmp`
-
-  least one function named main() which does not take any arguments.
 
 - If Terminal 2 says "...the canister is not empty..." run `make run`
 
@@ -58,7 +58,6 @@ Example:
   Terminal 1 and run `dfx start --clean` in Terminal 1.
 
 - If Terminal 2 says "...cannot create regular file '.tmp/'..." run `mkdir .tmp`
-
 
 # Contact
 
