@@ -58,4 +58,4 @@ clemedon icloud
 clem9nt  twitter
 ```
 
-<sub><i>Copyright 2022 Clément Vidon.  All Rights Reserved.</i></sub>
+<sub><i>Copyright 2023 Clément Vidon.  All Rights Reserved.</i></sub>
